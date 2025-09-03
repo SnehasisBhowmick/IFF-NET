@@ -303,7 +303,7 @@ prec = precision_score(y_true, y_pred)
 rec = recall_score(y_true, y_pred)
 f1 = f1_score(y_true, y_pred)
 
-print("\n📊 Test Metrics:")
+print("\n Test Metrics:")
 print(f"Accuracy:  {acc:.4f}")
 print(f"Precision: {prec:.4f}")
 print(f"Recall:    {rec:.4f}")
